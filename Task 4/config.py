@@ -1,8 +1,8 @@
 # Main configuration headers
 
 LOG_FILE_PATH = "key_logger.txt"
-SENDER_EMAIL = "olusholasalau@gmail.com"
-RECEIVER_EMAIL = "shina.salau19@kwasu.edu.ng"
-EMAIL_PASSWORD = "890098Ss"
+SENDER_EMAIL = "sender email"
+RECEIVER_EMAIL = "reciever email"
+EMAIL_PASSWORD = "password"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
